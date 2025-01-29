@@ -14,14 +14,21 @@ function agregarAmigo() {
         return;
     }
 
+ }
+
    //Agregar el nuevo amigo
    amigos.push(nuevoAmigo);
 
-   //Actualiza la lista de amigos en el HTML
+   //Actualiza la lista de amigos en el la pagina
    actualizarListaAmigos();
 
    document.getElementById("amigo").value="";
 
-   intentos++;
-}
+   
 
+    
+  //Funcion para actualizar los amigos
+function actualizarListaAmigos(){
+    let listaAmigos = document.getElementById("listaAmigos");
+    listaAmigos.innerHTML = "";
+}
