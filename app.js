@@ -2,6 +2,11 @@
  // Crea un array para almacenar los nombres
  let amigos = [];
  let intentos = 0;
+ let nuevoAmigo;
+let indiceAleatorio;
+let amigoSorteado;
+let resultadoElement;
+let listaAmigos;
  
  //Capturar el valor del campo de entrada
  function agregarAmigo() {
