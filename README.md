@@ -12,4 +12,6 @@ Visualizar la lista: Los nombres ingresados aparecerán en una lista debajo del 
 
 Sorteo aleatorio: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
 
+Como empezar.
 
+ 
