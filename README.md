@@ -1,4 +1,4 @@
-Como empezar.
+#<h1> Como empezar.</h1>
 Amigo Secreto
 Descripción
 El proyecto "Amigo Secreto" es una aplicación web que permite a los usuarios ingresar nombres de amigos en una lista y luego realizar un sorteo aleatorio para determinar quién es el "amigo secreto" de cada participante.
