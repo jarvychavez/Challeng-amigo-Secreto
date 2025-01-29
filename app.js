@@ -61,3 +61,15 @@ function sortearAmigo() {
     let resultadoElement = document.getElementById("resultado");
     resultadoElement.innerHTML = `¡El amigo sorteado es: ${amigoSorteado}!`;
 }
+
+//Nueva función para reiniciar el juego 
+function reiniciarJuego(){
+    amigos = [];
+    //Limpiar el arreglo amigos
+    //Actualizar la lista de amigos en la pagina 
+    //Limpiar el resultado
+    actualizarListaAmigos();
+
+    let resultadoElement = document.getElementById("resultado");
+    resultadoElement.innerHTML = "";
+}
