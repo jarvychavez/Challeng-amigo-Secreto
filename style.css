@@ -151,6 +151,7 @@ ul {
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+    
 }
 
 .button-draw img {
@@ -160,3 +161,4 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+

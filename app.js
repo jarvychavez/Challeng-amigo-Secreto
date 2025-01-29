@@ -7,6 +7,7 @@
  let amigoSorteado;
  let resultadoElement;
  let listaAmigos;
+ let botonReinicioHabilitado = false;
  
  //Capturar el valor del campo de entrada
  function agregarAmigo() {
@@ -60,6 +61,9 @@ function sortearAmigo() {
     // Mostrar el resultado
     let resultadoElement = document.getElementById("resultado");
     resultadoElement.innerHTML = `¡El amigo sorteado es: ${amigoSorteado}!`;
+
+    //Habilitar boton de reinicio
+    habilitarBotonReinicio();
 }
 
 //Nueva función para reiniciar el juego 
@@ -72,4 +76,15 @@ function reiniciarJuego(){
 
     let resultadoElement = document.getElementById("resultado");
     resultadoElement.innerHTML = "";
+
+    //Deshabilitar el botón de reinicio
+    botonReinicioHabilitado = false;
+    document.querySelector('#reiniciar').setAttribute('disabled', 'true');
+}
+
+
+//Función para habilitar el botón de reinicio
+function habilitarBotonReinicio(){
+    botonReinicioHabilitado = true;
+    document.querySelector('#reiniciar').removeAttribute('disabled');
 }
