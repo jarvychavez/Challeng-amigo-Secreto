@@ -37,3 +37,22 @@
          listaAmigos.appendChild(nuevoLi);
      }
  }
+
+ // Nueva función para sortear un amigo
+function sortearAmigo() {
+    // Validar que haya amigos disponibles
+    if (amigos.length === 0) {
+        alert("No hay amigos disponibles para sortear.");
+        return;
+    }
+
+    // Generar un índice aleatorio
+    let indiceAleatorio = Math.floor(Math.random() * amigos.length);
+
+    // Obtener el nombre sorteado
+    let amigoSorteado = amigos[indiceAleatorio];
+
+    // Mostrar el resultado
+    let resultadoElement = document.getElementById("resultado");
+    resultadoElement.innerHTML = `¡El amigo sorteado es: ${amigoSorteado}!`;
+}
